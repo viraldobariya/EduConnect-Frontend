@@ -410,33 +410,7 @@ const PrivateHome = () => {
           </div>
 
           {/* Recent Activity Preview */}
-          <div className="bg-gray-800/20 backdrop-blur-sm rounded-2xl p-6 border border-gray-700">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-xl font-bold text-white">Recent Activity</h2>
-              {/* <Link to="/activity" className="text-blue-400 hover:text-blue-300 text-sm font-medium">
-                View all
-              </Link> */}
-            </div>
-            
-            <div className="space-y-3">
-              {[
-                { type: 'message', text: 'New message from Alex Chen', time: '2 min ago', icon: '💬' },
-                { type: 'event', text: 'Web Development Workshop starting soon', time: '1 hour ago', icon: '📅' },
-                { type: 'question', text: 'Your question got 3 new answers', time: '3 hours ago', icon: '💡' },
-                { type: 'connection', text: 'Sarah Johnson accepted your request', time: '5 hours ago', icon: '👥' }
-              ].map((activity, index) => (
-                <div key={index} className="flex items-center space-x-3 p-3 rounded-lg hover:bg-gray-700/30 transition-colors duration-200">
-                  <div className="w-8 h-8 bg-gray-700 rounded-lg flex items-center justify-center">
-                    <span className="text-sm">{activity.icon}</span>
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-white text-sm">{activity.text}</p>
-                    <p className="text-gray-400 text-xs">{activity.time}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+          
 
           {/* Friend Suggestions */}
           <div className="mt-12">
