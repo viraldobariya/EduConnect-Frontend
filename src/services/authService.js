@@ -1,7 +1,7 @@
 import { login, logout } from "../api/authApi"
 import {login as loginSlice, logout as logoutSlice} from '../store/slices/authSlice'
 import {fetchConnections} from "./connectionService";
-import socketService from "./socketService";
+import socketService from "./SocketService";
 import {clearConnections} from '../store/slices/connectionSlice';
 
 export const loginService = (data) => async (dispatch) => {

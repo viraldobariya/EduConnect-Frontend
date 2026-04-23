@@ -5,7 +5,7 @@ import { autoLogin } from "./api/authApi";
 import { login } from "./store/slices/authSlice";
 import AppRouter from "./routes/routes";
 import { fetchConnections } from "./services/connectionService";
-import socketService from "./services/socketService";
+import socketService from "./services/SocketService";
 import { fetchNotifications } from "./store/slices/notificationsSlice";
 
 const AppContent = () => {
